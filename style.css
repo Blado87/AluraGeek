@@ -1,0 +1,48 @@
+:root {
+  --azul-oscuro: #03318c;
+  --purpura-intenso: #5d04d9;
+  --magenta: #9303a6;
+  --rosa-brillante: #c004d9;
+  --rosa-oscuro: #8c0375;
+  --gris-claro: #bfbfbf;
+  --negro: #000000;
+  --gris-muy-claro: #e5e5e5;
+}
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button, input, textarea {
+  font: inherit;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
